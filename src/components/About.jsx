@@ -1,5 +1,5 @@
 import React from 'react'
-import { MapPin, Laptop, GraduationCap, Rocket, Folder, Server, Database, RocketIcon } from 'lucide-react'
+import { MapPin, Laptop, GraduationCap, Rocket, Folder, Server, RocketIcon } from 'lucide-react'
 import { SiTailwindcss } from 'react-icons/si'
 import Pics from '../assets/Image.png'
 
@@ -36,27 +36,27 @@ function About() {
 
                            <div className='flex space-x-3 py-4'>
                                <div className='border-gray-800 border p-4 shadow-lg w-32 rounded-md'> 
-                                  <MapPin className='text-purple-600' />
+                                  <MapPin className='text-purple-600 mx-8' />
                                   <p className='font-bold text-sm text-slate-200 text-center mt-2'>Location</p>
                                   <p className='text-slate-200 text-xs text-center'>Lagos, Nigeria</p>
                             </div> 
 
                              <div className='border-gray-800 border p-4 shadow-lg w-32 rounded-md'> 
-                                  <Laptop className='text-violet-300' />
-                                  <p className='font-bold text-xs text-slate-200 text-center'>Focus</p>
-                                  <p className='text-slate-200 text-xs text-center mt-2'>Full Stack<br />Development</p>
+                                  <Laptop className='text-violet-300 mx-8' />
+                                  <p className='font-bold text-xs text-slate-200 text-center mt-1'>Focus</p>
+                                  <p className='text-slate-200 text-xs text-center mt-1'>Full Stack<br />Development</p>
                             </div> 
 
                              <div className='border-gray-800 border p-4 shadow-lg w-32 rounded-md'> 
-                                  <GraduationCap className='text-green-500'/>
+                                  <GraduationCap className='text-green-500 mx-8'/>
                                   <p className='font-bold text-sm text-slate-200 text-center mt-2'>Learning</p>
                                   <p className='text-slate-200 text-xs text-center'>React<br />+ Node.js</p>
                             </div> 
 
                              <div className='border-gray-800 border p-4 shadow-lg w-32 rounded-md'> 
-                                  <RocketIcon className='text-orange-400'/>
+                                  <RocketIcon className='text-orange-400 mx-8'/>
                                   <p className='font-bold text-sm text-slate-200 text-center mt-2'>Goal</p>
-                                  <p className='text-slate-200 text-xs'>Software developer</p>
+                                  <p className='text-slate-200 text-xs text-center'>Software developer</p>
                             </div> 
                           </div>
                      </div> 
