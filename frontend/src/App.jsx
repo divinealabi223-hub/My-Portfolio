@@ -8,18 +8,22 @@ import Skills from './components/Skills'
 // import Contact from './components/Contact'
 import ContactForm from './components/ContactForm'
 import Footer from './components/Footer'
+// import Motion from './components/Motion'
 
 function App() {
   return (
     <>
       <Navbar /> 
-      <Hero /> 
-      <About /> 
+      <main>
+        <section id='home' className='scroll-mt-20'><Hero /></section>
+        <section id='about' className='scroll-mt-20'><About /></section>
       {/* <StatView /> */}
-      <Skills /> 
+        <section id='skills' className='scroll-mt-20'><Skills /></section>
      {/* <Contact />  */}
-     <ContactForm /> 
+        <section id='contact' className='scroll-mt-20'><ContactForm /></section>
+      </main>
      <Footer />
+     {/* <Motion /> */}
     </>
   )
 }
